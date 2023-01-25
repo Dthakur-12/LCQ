@@ -1,0 +1,230 @@
+.wholeftcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.whorightcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.wholeftcontainer h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    color: #F27B13;
+}
+
+.whorightcontainer p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+}
+
+.whotext {
+    background-color: #C44729;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whotext p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+    /* padding: 50px 120px 50px 120px; */
+}
+
+.introleft {
+    /* text-align: center; */
+    padding: 30px
+}
+
+.introright {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.introright h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    color: #000000;
+}
+
+.introright p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+}
+
+.introright h6 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.whoservice {
+    background-color: #C44729;
+}
+
+.whoservice h5 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.service_ul {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.expercontainer {
+    background-color: #C44729;
+    margin-top: 30px;
+}
+
+.expercontainer h4 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.thinktank h4 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+.service_ultwo {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0b0b0b;
+    padding: 20px;
+
+}
+.service_ultwo ul li a {
+    color: black;
+}
+.whocontainer{
+    padding-top: 20px;
+}
+
+.footersection {
+    background: #F27B13;
+    opacity: 0.8;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.language {
+    padding: 30px;
+}
+
+.language h3 {
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* text-align: center; */
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.language p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 14px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.socialmedia img {
+    margin: 5px;
+
+}
+
+.ctsupport {
+    padding: 30px;
+}
+
+.ctsupport h3 {
+    /* text-align: center; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+      margin-bottom: 20px;
+}
+
+.ctsupport p {
+    /* text-align: center; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 14px;
+}
+.ctsupport h4 {
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.copyright{
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid white;
+}

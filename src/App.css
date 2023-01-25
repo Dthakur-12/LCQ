@@ -1,38 +1,778 @@
-.App {
+/* ::-webkit-scrollbar {
+  width: 5px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #888;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+
+  /* box-sizing: border-box; */
+}
+
+.container-fluid {
+  --bs-gutter-x: 0rem;
+}
+
+
+.asd {
+  display: flex;
+  align-items: center;
+  /* height: 100px; */
+  /* background-color: rgb(33, 12, 129);; */
+  ;
+}
+
+.asd.fixed {
+  background-color: red;
+
+}
+
+.section {
+  padding-top: 30px;
+}
+
+/* .fixed{
+  background-color:red;
+
+} */
+.fixed.setfixed {
+  position: fixed;
+  background-color: white;
+  box-shadow: 1px 3px 6px #00000021;
+  top: 0;
+  transition: all .7s ease-in;
+  z-index: 9999;
+}
+
+.headermain {
+  box-shadow: 1px 3px 6px #00000021;
+  background-color: white;
+  transition: all .7s ease-in;
+}
+
+.btntextupdated p {
+  display: contents;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #F27B13;
+}
+
+
+
+.active-class {
+  color: #F27B13;
+  text-decoration: none;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+.colabration a{
+  color: #000000;
+}
+.leader p::first-letter {
+  color: #F27B13;
+}
+
+.notactive-class {
+  color: #525451;
+  text-decoration: none;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+.asd ul li {
+  display: inline-block;
+  padding: 30px;
+}
+
+.rebtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #F27B13;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  border: none;
+}
+
+.blogheaer {
+  background-color: #F27B13;
+  /* height: 580px; */
+}
+
+.textwhy {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
+}
+
+.logoscreen a {
+  color: #F27B13;
+}
+
+.howcontainer {
+  padding-top: 30px;
+}
+
+.whatcontainer {
+  padding-top: 30px;
+}
+
+.textwhytwo {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.maincontaner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 65px;
+  /* align-items: center; */
+}
+
+.btndiv {
+  margin-top: 26px;
+}
+
+.leadership {
+  font-weight: bold;
+}
+
+.coast {
+  background-image: url('./assets/coast.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.leader h1 {
+  font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #F27B13;
+    padding-bottom: 46px;
+    line-height: 40px;
+}
+
+.leader p {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+  margin-top: -33px;
+  color: #FFFFFF;
+}
+
+.leader {
+  /* padding: 29px; */
+  margin-bottom: 50px;
+}
+
+.textinfo {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  /* line-height: 60px; */
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  /* letter-spacing: 0.05em; */
+  color: #000000;
+  padding: 60px;
+}
+
+.blogcontainer {
+  background-color: #A0A09F;
+
+}
+
+.blogcontainertwo {
+  background-color: #DEDEDE;
+
+}
+
+.blogpic {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.blogimagetwo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.blogimagetwo p {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.blogimagetwo span {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  color: #FFFFFF;
+  line-height: 5px;
+
+}
+
+.blogimagetwo article {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.virttxt h1 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 66px;
+  color: #F27B13;
+}
+
+.virttxt p {
+
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* line-height: 55px; */
+  text-align: justify;
+  color: #F27B13;
+}
+
+.btnjs {
+  margin-top: 70px;
+}
+
+.logoscreen {
+  text-align: center;
+  padding: 50px;
+}
+
+.logoscreen p {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 66px;
+  text-align: center;
+  color: #000000;
+}
+
+.logoscreen h1 {
+  margin-top: 30px;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  color: #000000;
+}
+
+.logoscreen span {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.logoscreen h3 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 66px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #F27B13;
+}
+
+.logoscreen h4 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 15px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+
+}
+
+
+.transparentcontainer {
+  height: 400px;
+  background: transparent;
+
+}
+
+.maincontainer {
+  background-image: url('./assets/backg.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 560px; */
+
+}
+
+.leftcontainerwhy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.leftcontainerwhy h1 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  color: #F27B13;
+}
+
+.rightcontanerwhy p {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 35px;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.025em;
+  color: black;
+}
+
+.group {
+  text-align: center;
+  padding: 30px;
+}
+
+.unleasing h4 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 60px;
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding: 30px;
+}
+
+.para {
+  /* text-align: center; */
+  background-color: #F27B13;
+  padding: 30px;
+}
+
+.para p {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.para h1 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+
+  align-items: center;
+  text-align: center;
+
+
+  color: #FFFFFF;
+
+}
+
+.para h5 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  /* line-height: 60px; */
+  text-align: center;
+  margin-top: 30px;
+  /* letter-spacing: 0.02em; */
+  color: #FFFFFF;
+}
+
+.para h6 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 214px;
+  /* line-height: 50px; *;
+/* letter-spacing: 0.02em; */
+  color: #FFFFFF;
+}
+
+.diversity h1 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  /* line-height: 55px; */
+  text-align: center;
+  color: #F27B13;
+}
+
+.diversity {
+  text-align: center;
+  padding: 30px;
+}
+
+.diversity img {
+  margin-top: 25px;
+}
+
+.keyfigure {
+  background-color: #F27B13;
+  /* text-align: center; */
+  padding: 30px;
+}
+
+.keyfigure h2 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.keyfigure h3 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 327px;
+  /* text-align: center; */
+  color: #FFFFFF;
+  margin-top: 20px
+}
+
+.keyfigure p {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: 327px;
+  margin-top: 30px;
+  line-height: 5px;
+}
+
+.keyfigure h6 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: 327px;
+}
+
+.investment h1 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  /* line-height: 55px; */
+  text-align: center;
+  color: #F27B13;
+}
+
+.investment img {
+  margin-top: 20px;
+}
+
+.investment {
+  text-align: center;
+  padding: 30px;
+}
+
+.howleftcontaier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.howleftcontaier h1 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 60px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  color: #F27B13;
+
+}
+
+.howrightcontainer p {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  align-items: center;
+  text-align: justify;
+  color: #000000;
+}
+
+.howrightcontainer h6 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  align-items: center;
+  text-align: justify;
+  color: #000000;
+  margin-top: 15px;
+
+}
+
+.acebtn button {
+  text-align: center;
+  padding: 12px;
+  width: -webkit-fill-available;
+  color: #F27B13;
+  font-size: 18px;
+  font-weight: 700;
+  border-color: white;
+  background-color: white;
+  border-width: thin;
+  margin-top: 30px;
+  border: none;
+  text-decoration: underline;
+}
+
+.leadership p {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+  text-align: justify;
+  color: #000000;
+  margin-top: 50px;
+  line-height: 0px;
+}
+
+.experiment h1 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  /* line-height: 42px; */
+  text-align: justify;
+  color: #F27B13;
+}
+
+.experiment p {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  /* line-height: 42px; */
+  text-align: justify;
+  color: #525451
+}
+
+.experiment {
+  text-align: center;
+
+}
+
+.slider {
+  background-color: rgb(96, 94, 94);
+  padding: 30px;
+}
+
+.slide1 {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.image {
+  height: 296px;
+  width: 900px;
+
+}
+
+.whatpeoplesay {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 55px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.ourclient {
+  padding: 30px;
+  /* display: flex; */
+ text-align: center;
+}
+.ourclient h2 {
+  font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #000000;
+    text-align: center;
+}
+
+.ourtake {
+  background-color:rgb(96, 94, 94);
+  padding: 30px;
+}
+
+.ourtake h1 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 55px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.ourtake p {
+  /* padding: 50px; */
+  /* padding-left: 183px;
+  padding-right: 200px; */
+  text-align: justify;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.ourtake h6 {
+  /* padding-left: 183px;
+  padding-right: 200px; */
+  /* text-align: center; */
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.colabration {
+  padding: 30px;
+}
+
+.colabration h1 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  color: #000000;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.colabration h6 {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2px;
+  /* text-align: justify; */
+  /* letter-spacing: 0.035em; */
+  color: #000000;
 }

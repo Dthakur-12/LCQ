@@ -1,0 +1,94 @@
+.leadershiptwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.leadershiptwo h5 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: #000000;
+
+}
+
+.leadershiptwo h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+
+
+}
+
+.leadershiptwo p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    color: #F27B13;
+
+}
+
+
+.leadershiptext p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: justify;
+    color: #000000;
+    margin: 10px;
+}
+
+.ourservices {
+    text-align: center;
+}
+
+.ourservices h4 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #F27B13;
+}
+
+.ourservicesform {
+    text-align: center;
+}
+
+.ourservicesform h4 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    margin-top: 20px;
+}
+.leadershipcontainer{
+    padding-top: 30px;
+}
+.formdata{
+    text-align: center;
+}
+.formdata input{
+    background-color: #F5F8FA;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    width: 80%;
+    border:1px solid #CACCC9;
+    margin-top: 30px;
+}
+.formdata button {
+    border: none;
+    background-color: #F27B13;
+    padding: 10px;
+    /* border-radius: 50px; */
+    color: white;
+    width: 80%;
+    margin: 25px;
+}

@@ -1,0 +1,61 @@
+.experts h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    text-align: center;
+    color: #000000;
+}
+.expertstwo{
+    background-color: #F27B13;
+
+}
+.expertsthree{
+    background-color: #525451;
+}
+.expertsfour{
+ background-color: #A0A09F;   
+}
+.expertleft{
+    padding: 30px;
+    text-align: center;
+}
+.expertright{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.experts{
+    padding-top: 30px;
+}
+
+.expertright p{
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+text-align: justify;
+color: #FFFFFF;
+}
+
+.expertleft h5{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px;
+}
+.expertleft p{
+    font-family: 'Calibri';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    /* width: 90%; */
+}
+

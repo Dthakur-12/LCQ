@@ -1,0 +1,30 @@
+.consulting {
+    padding-top: 30px;
+}
+
+.consulting h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #F27B13;
+
+}
+
+.consulting p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    line-height: 30px;
+}
+.paragraphg p{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    line-height:25px;
+
+}

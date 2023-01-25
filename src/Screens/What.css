@@ -1,0 +1,231 @@
+.whatleftcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatleftcontainer h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    color: #F27B13;
+}
+
+.whatrightcontainer h2 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #F27B13;
+}
+
+.whatrightcontainer p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: black
+}
+
+.help {
+    margin-top: 20px;
+}
+
+.whatrightcontainer ul li::before {
+    /* content: "•"; */
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.listitem {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: black
+}
+
+.training {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.training h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #F27B13;
+    width: 68%;
+    text-align: center;
+}
+
+.traininggrp {
+    background-color: #A0A09F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.services {
+    background-color: #A0A09F;
+    padding: 30px;
+}
+
+.services h1 {
+    text-align: center;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.serviceleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 30px;
+}
+
+.serviceright {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.serviceleft h2 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #F27B13;
+    margin-left: 35px;
+}
+
+.texttwo h2 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #F27B13;
+    margin-left: 50px;
+    padding-top: 39px;
+}
+
+
+
+.serviceleft ol li::marker {
+    color: #F27B13;
+
+}
+
+.serviceleft ol li {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #000000;
+    margin: 20px;
+}
+
+.findButton {
+    text-align: center;
+    background-color: #F27B13;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 100%;
+    border-style: none;
+}
+
+.findmorebutton {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.findmorebutton a {
+    width: 100%;
+}
+
+.research {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.research h4 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    color: #F27B13;
+    text-align: center;
+
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.researchcab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.book h5{
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+text-align: center;
+}
+
+.researchcabtwo{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding-left: 180px;
+
+}
+.researchcabtwoone{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding-right: 170px;
+
+}

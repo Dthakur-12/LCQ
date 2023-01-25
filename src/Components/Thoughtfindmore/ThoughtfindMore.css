@@ -1,0 +1,63 @@
+.thoughtleadership {}
+
+.thoughtleadership h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #F27B13;
+    line-height: 45px;
+
+}
+
+.thoughtleadership b {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: justify;
+    color: #F27B13;
+}
+
+.thoughtleadership p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: justify;
+    color: black;
+}
+.thoughtleadership ul li {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: justify;
+    color: black;
+}
+
+.formdatathree{
+    text-align: center;
+}
+.formdatathree input{
+    background-color: #F5F8FA;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    border:1px solid #CACCC9;
+    margin-top: 30px;
+}
+.formdatathree button {
+    border: none;
+    background-color: #F27B13;
+    padding: 10px;
+    /* border-radius: 50px; */
+    color: white;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.thoughtcontainer{
+    padding-top: 30px;
+}

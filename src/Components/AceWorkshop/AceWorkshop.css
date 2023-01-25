@@ -1,0 +1,169 @@
+.workshop h5 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #000000;
+
+}
+
+.workshop h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    color: #000000;
+}
+
+.workshop p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #F27B13;
+}
+
+.diversitytext p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.apitext {
+    padding: 20px;
+    /* width: 50%; */
+    text-align: center;
+    margin-top: 10;
+}
+
+.apitext h3 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+}
+
+.apitexttwo {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+
+.registerbttn {
+    border: none;
+    background-color: #F27B12;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    width: 60%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.objective{
+    background-color: #605E5E;
+    padding: 30px;
+}
+.objective h1{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.objective p{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+text-align: justify;
+color: #FFFFFF;
+}
+.objective ol li{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: justify;
+color: #FFFFFF;
+}
+.objective ul li{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: justify;
+color: #FFFFFF;
+}
+.resource{
+    padding: 30px;
+
+}
+.resource h5{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+text-align: center;
+color: #F27B13;
+
+}
+.resource h6{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: justify;
+    color: #000000;
+}
+.resource ul li{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: justify;
+color: #000000;
+}
+.registerbttntwo {
+    border: none;
+    background-color:white; 
+    color: #F27B12;
+    padding: 15px;
+    border-radius: 50px;
+    width: 60%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.traineeleft{
+    padding: 20px;
+    text-align: center;
+}
+.traineeleft h1{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+color: #FFFFFF;
+}
+.traineeleft h5{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #FFFFFF;
+}
+.aceworkshopcontainer{
+    padding-top: 30px;
+}
+.traineeleft a{
+    color: #FFFFFF;
+}

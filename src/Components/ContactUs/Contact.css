@@ -1,0 +1,104 @@
+.contact h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.contactright p {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    /* color: #000000; */
+    line-height: 15px;
+}
+
+.contacttext h4 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 30px;
+
+}
+
+
+.formdatacontact {
+    /* text-align: center; */
+}
+
+.formdatacontact input {
+    background-color: #F5F8FA;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #CACCC9;
+    margin-top: 30px;
+}
+
+.formdatacontact textarea {
+    background-color: #F5F8FA;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #CACCC9;
+    margin-top: 30px;
+}
+
+.formdatacontact button {
+    border: none;
+    background-color: #F27B13;
+    padding: 10px;
+    /* border-radius: 50px; */
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formtext h6 {
+    text-align: left;
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+.firstcheckbox{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+
+.firstcheckbox input{
+    width: fit-content;
+}
+.firstcheckbox p{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 10px;
+    
+}
+
+.conatactcontainer{
+    padding-top: 30px;
+}
+
+.contactright a{
+    color: #F27B13;
+}
